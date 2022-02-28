@@ -1,7 +1,8 @@
 # Rock Paper Scissors Game
 
-pc_choice = 'scissors'
+import random
 
+pc_choice = random.choice(['scissors', 'paper', 'rock'])
 user_choice = input('Do you want rock, paper or scissors?\n')
 
 if pc_choice == user_choice:
